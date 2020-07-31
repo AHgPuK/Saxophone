@@ -1,7 +1,7 @@
 {
   "name": "saxophone",
   "description": "Fast and lightweight event-driven XML parser in pure JavaScript",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
@@ -21,9 +21,6 @@
       "node_modules",
       "lib/**/*.test.js"
     ]
-  },
-  "engines": {
-    "node": "6 || 8 || 10"
   },
   "keywords": [
     "xml",
