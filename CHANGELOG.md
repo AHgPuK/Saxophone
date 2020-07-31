@@ -1,11 +1,15 @@
 <!-- vim: set spelllang=en : -->
 # Changelog
 
-## v0.6.0
+## v0.6.1
 
-### New features
+### Breaking changes
 
-* Add support for !DOCTYPE
+* Node v6 reached end-of-life and is no longer supported.
+
+### Fixed bugs
+
+* Properly process CDATA and comment tags that sits astride two chunks.
 
 ## v0.5.0
 
